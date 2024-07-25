@@ -1,5 +1,11 @@
 # Vite + React + TypeScript + TailwindCSS + shadcn/ui
 
+## Install
+
+```
+npx degit choutianxius/vitecn
+```
+
 ## Quick Start
 
 ```shell
