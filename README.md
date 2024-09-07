@@ -2,15 +2,17 @@
 
 ## Install
 
+`pnpm` is recommended as the package manager.
+
 ```
-npx degit choutianxius/vitecn
+pnpx degit choutianxius/vitecn
 ```
 
 ## Quick Start
 
 ```shell
-npm i
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Deploy
@@ -22,5 +24,5 @@ See [vite docs](https://vitejs.dev/guide/static-deploy.html)
 See [shadcn/ui docs](https://ui.shadcn.com/docs)
 
 ```shell
-npx shadcn-ui@latest add button
+pnpx shadcn-ui@latest add button
 ```
