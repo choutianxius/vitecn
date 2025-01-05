@@ -23,6 +23,8 @@ See [vite docs](https://vitejs.dev/guide/static-deploy.html)
 
 See [shadcn/ui docs](https://ui.shadcn.com/docs)
 
+The button component has been added since I assume it's going to be used by most projects.
+
 ```shell
 pnpx shadcn-ui@latest add button
 ```
