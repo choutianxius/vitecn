@@ -1,7 +1,6 @@
 import path from "path";
 import { defineConfig } from "vite";
-
-// https://vitejs.dev/config/
+import reactPlugin from "@vitejs/plugin-react";
 
 export default defineConfig({
   resolve: {
@@ -9,4 +8,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  plugins: [
+    reactPlugin({
+      babel: {
+        plugins: [["babel-plugin-react-compiler", {}]],
+      },
+    }),
+  ],
 });
