@@ -21,10 +21,13 @@ See [vite docs](https://vitejs.dev/guide/static-deploy.html)
 
 ## Add a Component
 
+> [!CAUTION]
+> The Shadcn CLI doesn't work now because a TailwindCSS configuration file is required, which is deprecated in TailwindCSS v4.
+
 See [shadcn/ui docs](https://ui.shadcn.com/docs)
 
 The button component has been added since I assume it's going to be used by most projects.
 
 ```shell
-pnpx shadcn-ui@latest add button
+pnpx shadcn@latest add button
 ```
