@@ -35,7 +35,11 @@ export default function App() {
       </p>
 
       <div className="mt-2">
-        <Button variant={"default"} onClick={handleClick}>
+        <Button
+          variant={"default"}
+          onClick={handleClick}
+          className="cursor-pointer"
+        >
           Clicked {count} times
         </Button>
       </div>
