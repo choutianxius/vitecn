@@ -1,0 +1,29 @@
+name: Bump dependency versions
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  bump-deps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - name: Bump
+        run: pnpm up --latest
+      - name: Test build
+        run: pnpm run build
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: update-dependencies-${{ github.run_id }}
