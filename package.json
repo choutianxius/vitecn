@@ -14,22 +14,22 @@
     "@radix-ui/react-slot": "^1.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.485.0",
+    "lucide-react": "^0.486.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwind-merge": "^3.0.2"
+    "tailwind-merge": "^3.1.0"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.17",
-    "@types/node": "^22.13.14",
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/node": "^22.13.17",
     "@types/react": "^19.0.12",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
-    "babel-plugin-react-compiler": "19.0.0-beta-aeaed83-20250323",
+    "babel-plugin-react-compiler": "19.0.0-beta-e993439-20250328",
     "prettier": "^3.5.3",
-    "tailwindcss": "^4.0.17",
+    "tailwindcss": "^4.1.0",
     "typescript": "^5.8.2",
-    "vite": "^6.2.3"
+    "vite": "^6.2.4"
   },
   "prettier": {},
   "pnpm": {
