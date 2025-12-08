@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Build
-        run: pnpm run build
+        run: pnpm run build --base="vitecn"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
